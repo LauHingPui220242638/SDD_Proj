@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import NavBut from './NavBut'
 
 const NavBar = () => {
   return (
@@ -7,12 +9,13 @@ const NavBar = () => {
             <h1 className='logo text-[25px] text-blueColor'><strong>Job</strong>Shop</h1>
         </div>
         <div className='menu flex gap-8'>
-            <li className="menuList text-[#6f6f6f] hover:text-blueColor">Jobs</li>
-            <li className="menuList text-[#6f6f6f] hover:text-blueColor">Companies</li>
-            <li className="menuList text-[#6f6f6f] hover:text-blueColor">About</li>
-            <li className="menuList text-[#6f6f6f] hover:text-blueColor">Contact</li>
-            <li className="menuList text-[#6f6f6f] hover:text-blueColor">Login</li>
-            <li className="menuList text-[#6f6f6f] hover:text-blueColor">Register</li>
+            <Link to="/"><NavBut page="Job"></NavBut></Link>
+            <Link to="/reason"><NavBut page="Reason"></NavBut></Link>
+            <Link to="/goal"><NavBut page="Goal"></NavBut></Link>
+            <Link to="/goal"><NavBut page="Contact"></NavBut></Link>
+            <Link to="/goal"><NavBut page="Login"></NavBut></Link>
+            <Link to="/goal"><NavBut page="Register"></NavBut></Link>
+            
         </div>
     </div>
   )

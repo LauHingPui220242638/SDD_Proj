@@ -11,7 +11,7 @@ const Value = () => {
         <div className='singleGrid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]'>
           <div className='flex items-center gap-3'>
             <div className='imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] flex items-center justify-center'>
-              <img src='https://picsum.photos/50' alt='' className='w-[70%]'/>
+              <img src='https://picsum.photos/51' alt='' className='w-[70%]'/>
             </div>
 
             <span className='font-semibold text-textColor text-[18px]'>
@@ -26,15 +26,15 @@ const Value = () => {
         <div className='singleGrid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]'>
           <div className='flex items-center gap-3'>
             <div className='imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] flex items-center justify-center'>
-              <img src='https://picsum.photos/50' alt='' className='w-[70%]'/>
+              <img src='https://picsum.photos/49' alt='' className='w-[70%]'/>
             </div>
 
             <span className='font-semibold text-textColor text-[18px]'>
-              Simplicity
+              User-friendly
             </span>
           </div>
           <p className='text-[13px] text-textColor opacity-[.7] py-[1rem] font-semibold'>
-            Things beinf made beatifu simple are at the heart of evrything we do.
+           Easy to navigate and use, even for people who may not have a lot of experience with technology. 
           </p>
         </div>
 
@@ -46,11 +46,11 @@ const Value = () => {
             </div>
 
             <span className='font-semibold text-textColor text-[18px]'>
-              Simplicity
+            Up-to-date
             </span>
           </div>
           <p className='text-[13px] text-textColor opacity-[.7] py-[1rem] font-semibold'>
-            Things beinf made beatifu simple are at the heart of evrything we do.
+            Regularly updated with current information about the resources and services available to people experiencing working poverty.
           </p>
         </div>
         
@@ -68,7 +68,11 @@ const Value = () => {
 
         </div>
         <button className='border-[2px] rounded-[10px] py-[4px] px-[50px] text-[18px] font-semibold text-blueColor hover:bg-white border-blueColor'>
+        <a href='https://www1.jobs.gov.hk/0/tc/information/Epem/Vacancy/' >
+
             Get Started
+            
+          </a>
           </button>
       </div>
     </div>
