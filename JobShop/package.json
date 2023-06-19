@@ -1,5 +1,4 @@
 {
-  "proxy": "https://serpapi.com/search.json",
   "name": "jobshop",
   "private": true,
   "version": "0.0.0",
@@ -7,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
+    "deploy": "gh-pages -d build", 
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
